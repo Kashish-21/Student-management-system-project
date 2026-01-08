@@ -1,9 +1,10 @@
-# Python
+# .gitignore
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -20,40 +21,19 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
-.venv/
-venv/
-ENV/
-
 # Database
 *.db
 *.sqlite3
-instance/
+
+# Environment variables
+.env
 
 # Uploads
 uploads/
 
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# IDE specific files
-.idea/
+# IDE
 .vscode/
-*.swp
-*.swo
-*~
-.DS_Store
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# Local development
-.env.local
-
-# Logs
-*.log
+.idea/
 
 # OS generated files
 .DS_Store
